@@ -49,8 +49,6 @@ except URLError as e:
 #take the json version of the response and normalize it
 
 #output it the screen as a table
-streamlit.dataframe(fruityvice_normalized)
-
 #import snowflake.connector
 #don't run anything past here while we troubleshoot
 streamlit.stop()
