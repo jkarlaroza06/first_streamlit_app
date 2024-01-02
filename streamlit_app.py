@@ -25,8 +25,8 @@ fruits_to_show = my_fruit_list.loc[fruits_selected]
 #streamlit.dataframe(my_fruit_list)
 streamlit.dataframe(fruits_to_show)
 
-except URLError as e:
-    streamlit.error()
+#except URLError as e:
+ #   streamlit.error()
 
 #create the repeatable code block (called a function)
 def get_fruityvice_data(this_fruit_choice):
